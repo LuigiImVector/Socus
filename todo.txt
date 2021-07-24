@@ -1,0 +1,22 @@
+----------
+To-Do List
+----------
+
+- Wireframe su Adobe XD
+- Cambiare colore logo (forse)
+- Modificare banner
+- Aggiustare grandezza font e unità di misura in fase di scrittura
+- Homepage mobile
+- Homepage pc
+- Cambiare colore bordo se tutti i campi sono stati inseriti
+- Lato JS
+- White mode e/o Dark mode
+
+- Mobile: c	onsigliato in orizzontale
+
+
+----------
+Links
+----------
+
+https://material.io/design/typography/the-type-system.html#type-scale
