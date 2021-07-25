@@ -1,5 +1,5 @@
 # Socus
-![Image](img/Socus.png "socus banner")
+![Image](img/banner-white.png "socus banner")
 Simple website for the fast reading
 
 ### Why Socus?

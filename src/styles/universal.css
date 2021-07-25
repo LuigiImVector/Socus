@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #312B46;
+    background-image: radial-gradient(black 1px, transparent 0);
+    background-size: 40px 40px;
+    background-position: 10px 10px;
+    /*background-repeat: repeat;*/
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+}
+
+hr {
+    width: 14vmax; /* aumentare - forse-  */
+    height: 2px;
+    background-color: white;
+    margin: 0 auto;
+}
