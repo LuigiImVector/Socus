@@ -2,11 +2,18 @@
 To-Do List
 ----------
 
+- Pulsante "Esci" su "Edit text"
+- Aggiungere i vari :hover
+- Dare una funzione al pulsante dei WPM
+- Pulsante "Esci" su "Edit WPM"
+- Aggiornare pulsante submit generale
+
 - Lato JS
 - Cambiare colore bordo se tutti i campi sono stati inseriti + "disattivare" il pulsante submit in caso
 - White mode e/o Dark mode [?]
 
 - Mobile: consigliato in orizzontale
+- Integrazione con Pocket
 
 
 ----------

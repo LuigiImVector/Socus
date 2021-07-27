@@ -78,6 +78,70 @@
     /*cursor: pointer;*/
 }
 
+#input-text {
+    position: fixed;
+    width: 98%;
+    height: 98%;
+    background-color: white; /* cambiare colore */
+    /* add border */
+    border-radius: 20px;
+    top: -50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 420;
+    transition: all 0.6s ease-in-out;
+}
+
+textarea {
+    position: absolute;
+    resize: none;
+    width: 95%;
+    height: 85%;
+    border: none; /* modificare */
+    border-radius: 20px;
+	outline: inherit;
+    top: 4%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+#save-text {
+    position: absolute;
+    width: 80%;
+    height: 5vmax;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    border-radius: 10px;
+    border-radius: 20px;
+	outline: inherit;
+    font-size: initial;
+    color: white;
+    transition: all 0.2s ease-in-out; /* or linear */
+}
+
+.disabled-button {
+    background-color: #BD2130C4;
+    border: 1px solid #BD2130;
+    cursor: not-allowed;
+}
+
+.enabled-button {
+    background-color: #28a745c4;
+    border: 1px solid #28a745;
+    cursor: pointer;
+}
+
+.enabled-button:hover {
+    background-color: #28a746eb;
+}
+
+.enabled-button:active {
+    background-color: #28a746;
+}
+
 @media (max-width: 991.98px) {
     #title {
         display: block;
