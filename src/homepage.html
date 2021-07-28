@@ -28,12 +28,15 @@
                 <div class="side-button-title">Speed</div>
                 <div id="speed">200 wpm</div>
             </div>
-            <div id="submit">Start reading</div>
+            <div id="submit" class="disabled-button">Start reading</div>
         </div>
 
-        <div id="input-text">
+        <div id="input-text-popup">
             <textarea placeholder="Inserisci testo"></textarea>
-            <input type="button" id="save-text" class="disabled-button" value="Salva"></input>
+            <div id="input-text-buttons-container">
+                <input type="button" id="save-text" class="disabled-button items-button" value="Save"></input>
+                <input type="button" id="exit" class="items-button" value="Exit"></input>
+            </div>
         </div>
 
         <script src="script.js"></script>

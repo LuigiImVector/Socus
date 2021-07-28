@@ -2,11 +2,13 @@
 To-Do List
 ----------
 
-- Pulsante "Esci" su "Edit text"
-- Aggiungere i vari :hover
+- Bivio:
+	- cacciare il pulsante exit
+	- lasciare il pulsante exit con conferma di uscita e senza salvataggio (viene ripreso l'ultimo)
+
+
 - Dare una funzione al pulsante dei WPM
-- Pulsante "Esci" su "Edit WPM"
-- Aggiornare pulsante submit generale
+- Pulsante "Esci" su "Edit WPM" // Cliccando un nuovo parametro salverà e chiuderà tutto
 
 - Lato JS
 - Cambiare colore bordo se tutti i campi sono stati inseriti + "disattivare" il pulsante submit in caso
@@ -15,6 +17,9 @@ To-Do List
 - Mobile: consigliato in orizzontale
 - Integrazione con Pocket
 
+
+- Funzione aggiuntiva: salvataggio con CTRL + S (senza chiusura schermata popup)
+- Funzione aggiuntiva: autosalvataggio automatico ogni tot // un modo per salvare il contenuto della textarea anche se viene chiusa la pagina per sbaglio (il browser lo fa soltanto se si ritorna in quella specifica scheda - CTRL + SHIFT + T - ma non se se ne apre una nuova)
 
 ----------
 Links
