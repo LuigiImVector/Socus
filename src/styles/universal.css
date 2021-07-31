@@ -17,3 +17,7 @@ hr {
     margin: 0 auto;
     border: none;
 }
+
+abbr {
+    cursor: help;
+}

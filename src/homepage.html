@@ -15,22 +15,6 @@
     </head>
 
     <body>
-        <span id="title">Socus</span>
-        <hr />
-        <div id="description">Enter all the necessary information and start reading faster than before with less tiredness.</div>
-
-        <div id="container-buttons">
-            <div class="side-button">
-                <div class="side-button-title">Text</div>
-                <div id="text">Empty</div>
-            </div>
-            <div class="side-button">
-                <div class="side-button-title">Speed</div>
-                <div id="speed">200 wpm</div>
-            </div>
-            <div id="submit" class="disabled-button">Start reading</div>
-        </div>
-
         <div id="popup" class="input-text-popup">
             <textarea placeholder="Inserisci testo"></textarea>
             <div id="input-text-buttons-container">
@@ -44,6 +28,28 @@
                     <input type="button" id="confirm-close" class="disabled-button items-button" value="Close"></input>
                 </div>
             </div>
+        </div>
+
+        <span id="title">Socus</span>
+        <hr />
+        <div id="description">Enter all the necessary information and start reading faster than before with less tiredness.</div>
+
+        <div id="container-buttons">
+            <div class="side-button">
+                <div class="side-button-title">Text</div>
+                <div id="text">Empty</div>
+            </div>
+            <div class="side-button">
+                <div class="side-button-title"><abbr title="World per second">Speed</abbr></div>
+                <select id="speed">
+                    <option value="100">100 wpm</option>
+                    <option value="200" selected="selected">200 wpm</option>
+                    <option value="300">300 wpm</option>
+                    <option value="400">400 wpm</option>
+                    <option value="500">500 wpm</option>
+                </select>
+            </div>
+            <div id="submit" class="disabled-button">Start reading</div>
         </div>
 
         <script src="script.js"></script>
