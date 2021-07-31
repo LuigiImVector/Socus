@@ -31,11 +31,18 @@
             <div id="submit" class="disabled-button">Start reading</div>
         </div>
 
-        <div id="input-text-popup">
+        <div id="popup" class="input-text-popup">
             <textarea placeholder="Inserisci testo"></textarea>
             <div id="input-text-buttons-container">
                 <input type="button" id="save-text" class="disabled-button items-button" value="Save"></input>
-                <input type="button" id="exit" class="items-button" value="Exit"></input>
+                <input type="button" id="close" class="items-button" value="Close"></input>
+            </div>
+            <div id="confirm-popup" class="input-text-popup">
+                <div id="alert-text"><b>Warning!</b> Unsaved changes will be lose forever.</div>
+                <div id="input-text-buttons-container">
+                    <input type="button" id="cancel" class="items-button" value="Cancel"></input>
+                    <input type="button" id="confirm-close" class="disabled-button items-button" value="Close"></input>
+                </div>
             </div>
         </div>
 

@@ -2,11 +2,6 @@
 To-Do List
 ----------
 
-- Bivio:
-	- cacciare il pulsante exit
-	- lasciare il pulsante exit con conferma di uscita e senza salvataggio (viene ripreso l'ultimo)
-
-
 - Dare una funzione al pulsante dei WPM
 - Pulsante "Esci" su "Edit WPM" // Cliccando un nuovo parametro salverà e chiuderà tutto
 

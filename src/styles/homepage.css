@@ -98,7 +98,7 @@
     cursor: not-allowed;
 }
 
-#input-text-popup {
+.input-text-popup {
     position: fixed;
     width: 98%;
     height: 98%;
@@ -171,19 +171,59 @@ textarea {
     background-color: #28a746;
 }
 
-#exit {
+#close, #confirm-close {
     background-color: #BD2130C4;
     border: 1px solid #BD2130;
     cursor: pointer;
     margin-left: 1%;
 }
 
-#exit:hover {
+#close:hover, #confirm-close:hover {
     background-color: #BD2130EB;
 }
 
-#exit:active {
+#close:active, #confirm-close:active {
     background-color: #BD2130;
+}
+
+#confirm-popup {
+    width: 40%;
+    height: 40%;
+    background-color: #f0f0f0;
+    border: 1px solid #e1e1e1;
+    text-align: center;
+    color: #171717;
+    font-size: 1.3vmax;
+}
+
+#alert-text {
+    margin-top: 15%;
+}
+
+b {
+    display: inline;
+    font-size: 1.4vmax;
+    padding-bottom: 0;
+}
+
+#confirm-close, #cancel {
+    width: 25%;
+    height: 4vmax;
+    cursor: pointer;
+}
+
+#cancel {
+    background-color: #e1e1e1a6;
+    border: 1px solid #ccc;
+    color: #171717;
+}
+
+#cancel:hover {
+    background-color: #e1e1e1d9;
+}
+
+#cancel:active {
+    background-color: #e1e1e1;
 }
 
 @media (max-width: 991.98px) {
@@ -211,7 +251,26 @@ textarea {
         border-radius: 10px;
         font-size: 15px;
     }
+
+    #confirm-popup {
+        width: 60%;
+        font-size: 1.8vmax;
+    }
     
+    b {
+        font-size: 2vmax;
+        display: block;
+        padding-bottom: 10px;
+    }
+    
+    #confirm-close, #cancel {
+        width: 35%;
+        height: 5vmax;
+    }
+    
+    #alert-text {
+        margin-top: 20%;
+    }    
 }
 
 @media (min-width: 1200px) {
@@ -240,6 +299,28 @@ textarea {
     .items-button {
         border-radius: 20px;
         font-size: initial;
+    }
+
+
+
+    #confirm-popup {
+        width: 40%;
+        font-size: 1.3vmax;
+    }
+  
+    b {
+        display: inline;
+        font-size: 1.4vmax; 
+        padding-bottom: 0;
+    }
+    
+    #confirm-close, #cancel {
+        width: 25%;
+        height: 4vmax;
+    }
+    
+    #alert-text {
+        margin-top: 15%;
     }
 
 }

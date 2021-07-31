@@ -3,7 +3,7 @@ var saveButton = document.getElementById("save-text");
 
 /* Edit text button */
 document.getElementsByClassName("side-button")[0].onclick = function () {
-    document.getElementById("input-text-popup").style.top = "50%";
+    document.getElementById("popup").style.top = "50%";
 }
 
 textArea.addEventListener("input", function(event) {
@@ -26,17 +26,22 @@ saveButton.onclick = function () {
         document.getElementById("submit").classList.add("enabled-button");
         document.getElementById("submit").classList.remove("disabled-button");
 
-        document.getElementById("input-text-popup").style.top = "-50%";
+        document.getElementById("popup").style.top = "-50%";
     }
 }
 
-document.getElementById("exit").onclick = function () {
-    if(textArea.value.length <= 0) {
-        document.getElementById("submit").classList.add("disabled-button");
-        document.getElementById("submit").classList.remove("enabled-button");
-    }
+document.getElementById("close").onclick = function () {
+    document.getElementById("confirm-popup").style.top = "50%";
+}
 
-    document.getElementById("input-text-popup").style.top = "-50%";
+document.getElementById("confirm-close").onclick = function () {
+    document.getElementById("popup").style.top = "-50%";
+    document.getElementById("confirm-popup").style.top = "-50%";
+    document.getElementsByTagName("textarea")[0].value = localStorage.getItem("text");
+}
+
+document.getElementById("cancel").onclick = function () {
+    document.getElementById("confirm-popup").style.top = "-50%";
 }
 
 window.addEventListener("load", function() {
