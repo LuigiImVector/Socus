@@ -2,16 +2,16 @@
 To-Do List
 ----------
 
-- Lato JS
 - Aggiungere un tasto pausa
-- Aggiungere più velocità
-- White mode e/o Dark mode [?]
 
 - Mobile: consigliato in orizzontale
 - Integrazione con Pocket
 - Lasciare i puntini di sospensione (<abbr>) per la parola "Speed"?
+- hr in reader.html: width di 4vmax o 14vmax
+- Tasto 'genera testo casuale'
 
 - SEO
+- Tradurre commenti
 
 - Ricordare la scelta selezionata per i WPM come per il testo? Per farlo serve:
 	- https://stackoverflow.com/questions/10911526/how-do-i-change-an-html-selected-option-using-javascript
@@ -19,6 +19,7 @@ To-Do List
 
 - Funzione aggiuntiva: salvataggio con CTRL + S (senza chiusura schermata popup)
 - Funzione aggiuntiva: autosalvataggio automatico ogni tot // un modo per salvare il contenuto della textarea anche se viene chiusa la pagina per sbaglio (il browser lo fa soltanto se si ritorna in quella specifica scheda - CTRL + SHIFT + T - ma non se se ne apre una nuova)
+
 
 ----------
 Links
