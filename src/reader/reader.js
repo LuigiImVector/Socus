@@ -1,11 +1,12 @@
 var interval = 0;
 var wpmInitial = 0; /* serve a poter raggiungere gradualmente i WPM scelti dall'utente */
 var wordCounter = 0;
-var text, wpm;
+var text, wpm, timer;
+var pause=false;
 
 function startInterval (interval) {
     
-    var timer = setInterval(function () {
+    timer = setInterval(function () {
         if(wordCounter<text.length) {
             document.getElementById("word").innerHTML = text[wordCounter];
             wordCounter++;
@@ -24,6 +25,20 @@ function startInterval (interval) {
         }
     }, interval);
 
+}
+
+document.getElementById("status").onclick = function () {
+    if (pause) {
+        pause=false;
+        document.getElementById("play").style.display = "none";
+        document.getElementById("pause").style.display = "block";
+        startInterval(interval);
+    } else {
+        pause=true;
+        document.getElementById("pause").style.display = "none";
+        document.getElementById("play").style.display = "block";   
+        clearInterval(timer);
+    }
 }
 
 window.addEventListener("load", function () {

@@ -2,13 +2,13 @@
 To-Do List
 ----------
 
-- Aggiungere un tasto pausa
-
 - Mobile: consigliato in orizzontale
 - Integrazione con Pocket
 - Lasciare i puntini di sospensione (<abbr>) per la parola "Speed"?
 - hr in reader.html: width di 4vmax o 14vmax
-- Tasto 'genera testo casuale'
+- Tasto 'genera testo casuale' / Testo spiegazioni di default
+- Rendere più decente il logo per il title
+- Aggiungere un countdown (3,2,1) prima che inizi la lettura veloce // mettere il testo in pausa di default
 
 - SEO
 - Tradurre commenti
@@ -25,5 +25,6 @@ To-Do List
 Links
 ----------
 
+https://icons.getbootstrap.com/icons/caret-right-fill/
 https://material.io/design/typography/the-type-system.html#type-scale
 https://getbootstrap.com/docs/5.0/layout/breakpoints/

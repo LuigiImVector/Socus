@@ -47,9 +47,6 @@ document.getElementById("cancel").onclick = function () {
 document.getElementById("submit").onclick = function () {
     if (localStorage.getItem("text") != null && localStorage.getItem("text").length>0) {
         localStorage.setItem("wpm", document.getElementById("speed").value);
-        console.log("Text: " + localStorage.getItem("text"));
-        console.log("WPM: " + localStorage.getItem("wpm"));
-        console.log("---------------");
 
         window.location.href = "reader/reader.html";
     }

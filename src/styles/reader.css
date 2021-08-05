@@ -7,22 +7,114 @@ body {
     flex-direction: column;
     /*transition: all 0.8s ease-in-out;*/
 
-    /*-webkit-touch-callout: none;
+    -webkit-touch-callout: none;
     -webkit-user-select: none;  
     -khtml-user-select: none; 
     -moz-user-select: none;  
     -ms-user-select: none;    
-    user-select: none;*/
+    user-select: none;
+}
+
+#status {
+    width: 150px;
+    height: 150px;
+    background-color: #3E3853;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 15%;
+    box-shadow: 8px 10px 25px -10px black;
+    cursor: pointer;
+}
+
+#pause {
+    display: block;
+}
+
+#pause::before {
+    content: '';
+    width: 20px;
+    height: 45%;
+    background: #171717;
+    border-radius: 6px;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%,-50%);
+}
+
+
+#pause::after {
+    content: '';
+    width: 20px;
+    height: 45%;
+    background: #171717;
+    border-radius: 6px;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+}
+
+#play {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100px;
+    height: 100px;
+    color: #28a746;
+    filter: drop-shadow(rgba(0, 0, 0, 0.5) 2px 2px 10px);
+    z-index: 69;
 }
 
 @media (max-width: 1199.98px) {
+    #status {
+        width: 125px;
+        height: 125px;
+    }
+    
+    #pause::after {
+        width: 18px;
+    }
+    
+    #pause::before {
+        width: 18px;
+    }
+
+    #play {
+        width: 80px;
+        height: 80px;
+    }
+
     #word {
-        font-size: 12vmax;    
+        font-size: 8vmax;    
     }
 }
 
 @media (min-width: 1200px) {
+    #status {
+        width: 150px;
+        height: 150px;
+    }
+    
+    #pause::before {
+        width: 20px;
+    }
+    
+    
+    #pause::after {
+        width: 20px;
+    }
+    
+    #play {
+        width: 100px;
+        height: 100px;
+    }
+
     #word {
-        font-size: 8vmax;    
+        font-size: 10vmax;    
     }
 }
