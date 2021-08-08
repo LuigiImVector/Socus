@@ -24,7 +24,7 @@ textArea.addEventListener("input", function(event) {
 
 // Save text
 saveButton.onclick = function () {
-    if(textArea.value.length > 0) {
+    if(textArea.value != "") {
         localStorage.setItem("text", textArea.value);
 
         document.getElementById("text").innerHTML = localStorage.getItem("text").slice(0, 10) + "...";
@@ -46,6 +46,12 @@ document.getElementById("confirm-close").onclick = function () {
     document.getElementById("popup").style.top = "-50%";
     document.getElementById("confirm-popup").style.top = "-50%";
     document.getElementsByTagName("textarea")[0].value = localStorage.getItem("text");
+    if(textArea.value == "")
+    {
+        saveButton.classList.add("disabled-button");
+        saveButton.classList.remove("enabled-button");
+    }
+    
 }
 
 document.getElementById("cancel").onclick = function () {
@@ -55,6 +61,8 @@ document.getElementById("cancel").onclick = function () {
 // Tutorial + Example text
 document.getElementById("how-it-works").onclick = function () {
     textArea.value = howItWorks;
+    saveButton.classList.add("enabled-button");
+    saveButton.classList.remove("disabled-button");
 }
 
 // Start speed reading
@@ -68,9 +76,10 @@ document.getElementById("submit").onclick = function () {
 
 window.addEventListener("load", function() {
     // Restore text
-    if(textArea.value.length>0)
+    if(localStorage.getItem("text") != null)
     {
         document.getElementById("text").innerHTML = localStorage.getItem("text").slice(0, 10) + "...";
+        textArea.value = localStorage.getItem("text");
 
         saveButton.classList.add("enabled-button");
         saveButton.classList.remove("disabled-button");
