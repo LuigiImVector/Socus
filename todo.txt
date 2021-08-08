@@ -2,23 +2,8 @@
 To-Do List
 ----------
 
-- Mobile: consigliato in orizzontale
-- Integrazione con Pocket
-- Lasciare i puntini di sospensione (<abbr>) per la parola "Speed"?
-- hr in reader.html: width di 4vmax o 14vmax
-- Tasto 'genera testo casuale' / Testo spiegazioni di default
-- Rendere più decente il logo per il title
-- Aggiungere un countdown (3,2,1) prima che inizi la lettura veloce // mettere il testo in pausa di default
 
-- SEO
-- Tradurre commenti
-
-- Ricordare la scelta selezionata per i WPM come per il testo? Per farlo serve:
-	- https://stackoverflow.com/questions/10911526/how-do-i-change-an-html-selected-option-using-javascript
-	- prendere il primo carattere dell'item WPM (metodo array come in C++ oppure slice) e decrementarlo di 1 per avere la posizione dell'array (in option) desiderata
-
-- Funzione aggiuntiva: salvataggio con CTRL + S (senza chiusura schermata popup)
-- Funzione aggiuntiva: autosalvataggio automatico ogni tot // un modo per salvare il contenuto della textarea anche se viene chiusa la pagina per sbaglio (il browser lo fa soltanto se si ritorna in quella specifica scheda - CTRL + SHIFT + T - ma non se se ne apre una nuova)
+- Pocket API test [ahahahahhah]
 
 
 ----------

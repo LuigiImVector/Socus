@@ -1,5 +1,5 @@
 var interval = 0;
-var wpmInitial = 0; /* serve a poter raggiungere gradualmente i WPM scelti dall'utente */
+var wpmInitial = 0; /* it scope is reach gradualmente the final WPM value */
 var wordCounter = 0;
 var text, wpm, timer;
 var pause=false;
@@ -14,7 +14,7 @@ function startInterval (interval) {
             clearInterval(timer);
         }
 
-        // Ogni 5 parole aumenta la velocità di 50 WPM
+        // Each 5 word the WPM incrases by 50
         if(wordCounter%5==0) {
             if(wpmInitial<wpm) {
                 wpmInitial += 50;
@@ -27,6 +27,7 @@ function startInterval (interval) {
 
 }
 
+// Pause-Start button
 document.getElementById("status").onclick = function () {
     if (pause) {
         pause=false;
