@@ -256,6 +256,33 @@ option {
     cursor: not-allowed;
 }
 
+footer {
+    display: flex;
+    width: 100%;
+    height: auto;
+    padding: 1% 0;
+    border-top: 1px solid black;
+    background-color: #312B46E6;
+    /*background-color: #312B46;*/
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+footer > span {
+    font-size: initial;
+    margin: 0 0 0 2%;
+}
+
+footer > a {
+    margin: 0 2% 0 0;
+}
+
+footer > a > img {
+    width: 48px;
+    height: auto;
+}
+
 @media (max-width: 991.98px) {
     #confirm-popup {
         width: 60%;
@@ -305,6 +332,21 @@ option {
     .items-button {
         border-radius: 10px;
         font-size: 15px;
+    }
+
+    footer {
+        padding: 5% 0;
+        flex-direction: column;
+    }
+    
+    footer > span {
+        font-size: 0.8em;
+        margin: 0 2% 5% 0;
+    }
+    
+    footer > a > img {
+        width: 48px;
+        /*width: 32px;*/
     }
 }
 
@@ -359,5 +401,19 @@ option {
     .items-button {
         border-radius: 20px;
         font-size: initial;
+    }
+
+    footer {
+        padding: 1% 0;
+        flex-direction: row;
+    }
+    
+    footer > span {
+        font-size: initial;
+        margin: 0 0 0 2%;
+    }
+    
+    footer > a > img {
+        width: 48px;
     }
 }

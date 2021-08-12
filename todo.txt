@@ -3,8 +3,6 @@ To-Do List
 ----------
 
 
-- Add something when text is over
-
 - Pocket API test [ahahahahhah]
 
 
@@ -12,6 +10,6 @@ To-Do List
 Links
 ----------
 
-https://icons.getbootstrap.com/icons/caret-right-fill/
+https://icons.getbootstrap.com/icons/
 https://material.io/design/typography/the-type-system.html#type-scale
 https://getbootstrap.com/docs/5.0/layout/breakpoints/
