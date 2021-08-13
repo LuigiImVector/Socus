@@ -1,6 +1,6 @@
 # Socus
 ![Image](img/banner-white.png "socus banner")
-Simple [website](https://github.com/LuigiImVector/Socus) for the fast reading
+Simple [website](http://socus.it/) for the fast reading
 
 [//]: <> ()
 
