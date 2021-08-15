@@ -70,7 +70,7 @@ document.getElementById("submit").onclick = function () {
     if (localStorage.getItem("text") != null && localStorage.getItem("text").length>0) {
         localStorage.setItem("wpm", document.getElementById("speed").value);
 
-        window.location.href = "reader/reader.html";
+        window.location.href = "reader/index.html";
     }
 }
 
