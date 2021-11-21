@@ -220,6 +220,7 @@ b {
 option {
     font-size: 1.8vmax;
     background-color: #fff;
+    color: #121212;
 }
 
 #submit {
